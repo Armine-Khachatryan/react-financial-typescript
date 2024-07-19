@@ -1,0 +1,72 @@
+.personal-info-content {
+   margin-bottom: 280px;
+}
+
+.personal-info-content .title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.personal-info-content .user-name {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.personal-info-content .user-name img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.personal-info-content .user-name span {
+    font-size: 32px;
+    line-height: 46px;
+    max-width: 145px;
+    text-transform: uppercase;
+}
+
+.user-details {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.user-details .user-details-item {
+    display: grid;
+    gap: 20px;
+}
+
+.user-details .user-details-item:nth-child(1) {
+    position: relative;
+    padding-right: 80px;
+}
+
+.user-details .user-details-item:nth-child(1)::after {
+    position: absolute;
+    right: 0;
+    content: "";
+    background-color: #D9D9D9;
+    width: 1px;
+    height: 100px;
+}
+
+.user-details .user-details-item span:nth-child(1) {
+    font-size: 18px;
+    line-height: 26px;
+    color: #696969;
+}
+
+.user-details .user-details-item span:nth-child(2) {
+    font-size: 24px;
+    line-height: 35px;
+    color: #161616;
+    
+}
+
+.user-details .user-details-item span:nth-child(2) img {
+    padding-left: 10px;
+    margin-top: -10px;
+}

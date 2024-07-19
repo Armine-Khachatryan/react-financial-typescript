@@ -1,0 +1,37 @@
+.form {
+    gap: 0 80px;
+    display: grid !important;
+    grid-template-columns: 0.3fr 2fr;
+    position: relative;
+    margin-left: 100px;
+}
+
+  .navigation {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navigation .form-buttons {
+    margin-left: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    gap: 40px;
+  }
+
+  .navigation .form-buttons button {
+    border: 1px solid #95AABB;
+    background-color: var(--main_blue);
+    color: #ffffff;
+    width: 125px;
+    height: 37px;
+    font-family: Jost-Bold;
+    font-size: 20px;
+    line-height: 29px;
+    margin: 60px auto 0;
+    border-radius: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

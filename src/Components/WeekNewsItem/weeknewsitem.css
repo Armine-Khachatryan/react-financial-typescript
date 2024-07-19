@@ -1,0 +1,18 @@
+.week-news-item {
+    max-width: 406px;
+    width: 100%;
+}
+
+.week-news-item .week-news-item-image {
+    height: 100%;
+    max-height: 253px;
+    margin-bottom: 20px;
+}
+
+.week-news-item .week-news-item-detalis {
+    display: grid;
+    gap: 10px;
+    font-size: 20px;
+    line-height: 29px;
+    color: var(--dark_blue);
+}

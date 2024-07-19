@@ -1,0 +1,79 @@
+@import "../src/styles/fonts.css"; 
+
+:root {
+  --main_blue: #107DD7;
+  --dark_blue: #000C1F;
+  --secondary-grey: #797979;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Jost-Regular;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-container {
+  max-width: 1264px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  padding: 0 15px;
+}
+
+.user-main-container {
+  max-width: 1624px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  padding: 0 15px;
+}
+.whole{
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.inside{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user-home-main {
+  margin-top: 180px;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background: transparent;
+  border: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+input:focus {
+  outline: none;
+}

@@ -1,0 +1,81 @@
+.inputDiv{
+    display:flex;
+    gap: 12px;
+    margin-bottom:4px
+}
+.labelStyle{
+    width:170px;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color:#000C1F
+}
+.inputStyle{
+    padding:6px 10px;
+    max-width:110px;
+    width: 100%;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color:white;
+    border-radius: 2px;
+    border: 0.5px solid  #000C1F;
+    background: #107DD7
+}
+.inputStyle::placeholder{
+    color:#D9D9D9;
+    font-weight: 400;
+}
+.singleDiv{
+    display: flex;
+    align-items: center;
+    gap:30px;
+    margin-bottom: 16px;
+}
+.singleName{
+    width:130px;
+    color:  #797979;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+}
+.singleData{
+    color:  #107DD7;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.btnStyle{
+    padding:6px 10px;
+    max-width:110px;
+    width: 100%;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color:white;
+    border-radius: 2px;
+    border: 0.5px solid  #000C1F;
+    background: #107DD7;
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+
+.buttonAndInput{
+    display: flex;
+    flex-direction: column;
+}
+.spanStyle{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color:#000C1F;
+    margin-left: 6px;
+}

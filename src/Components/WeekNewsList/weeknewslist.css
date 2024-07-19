@@ -1,0 +1,13 @@
+.week-news-title {
+    font-family: Jost-Bold;
+    font-size: 32px;
+    line-height: 46px;
+    margin: 100px 0 56px 0;
+    color: var(--dark_blue);
+}
+
+.week-news-list {
+    display: flex;
+    gap: 23px;
+    margin-bottom: 100px;
+}

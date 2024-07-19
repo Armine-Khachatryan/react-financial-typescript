@@ -1,0 +1,43 @@
+.loginpin-form-group {
+    display: grid;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.loginpin-form-group .pin-inputs {
+    display: flex;
+    gap: 14px;
+}
+
+.loginpin-form-group .pin-inputs input {
+    width: 111px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #95AABB;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+}
+.next{
+    width: 125px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 55px;
+    background:  #107DD7;
+    cursor: pointer;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #FFF;
+    margin:60px auto 0;
+}
+.notAllowed{
+    border: 2px solid #696969;
+    color: #696969;
+    background: #FFF;
+}
+

@@ -1,0 +1,8 @@
+.chartDiv{
+    margin-top:40px
+}
+
+.chartStyle{
+    background: linear-gradient(180deg, #E4F4FF 0%, rgba(229, 244, 255, 0.00) 100%);
+    padding:30px 20px
+}

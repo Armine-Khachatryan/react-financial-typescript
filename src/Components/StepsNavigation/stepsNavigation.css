@@ -1,0 +1,84 @@
+.steps {
+    display: grid;
+}
+
+.steps button > div {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    justify-content: space-between;
+    height: 180px;
+    gap: 20px;
+}
+
+.steps button > div::after {
+    position: absolute;
+    background-color: #D9D9D9;
+    width: 2px;
+    height: 74px;
+    content: "";
+    bottom: 10%;
+    right: 22%;
+}
+
+.steps button:last-of-type > div::after {
+    opacity: 0;
+}
+
+.steps button > div span {
+    color: black;
+    font-family: Jost-Bold;
+    font-size: 20px;
+    margin-top: 12%;
+    text-align: right;
+}
+
+.steps button > div .icon-start {
+    width: 70px;
+    height: 70px;
+    background: url("../../assets/images/icons/start-step-icon.png") no-repeat center;
+    background-size: 70px;
+}
+
+.steps button > div .icon-start.completed {
+    /*background-color: red;*/
+    background: url("../../assets/images/icons/start-step-icon.png") no-repeat center;
+}
+
+.steps button > div .icon-finance {
+    width: 70px;
+    height: 70px;
+    background: url("../../assets/images/icons/finance-icon.png") no-repeat center;
+    background-size: 70px;
+}
+
+.steps button > div .icon-finance.completed {
+    background: url("../../assets/images/icons/Finance_ selected.png") no-repeat center;
+}
+
+.steps button > div .icon-rent {
+    width: 70px;
+    height: 70px;
+    background: url("../../assets/images/icons/rent-steps-icon.png") no-repeat center;
+    background-size: 70px;
+}
+
+.steps button > div .icon-rent.completed {
+    background: url("../../assets/images/icons/Rent_ selected.png") no-repeat center;
+}
+
+.steps button > div img {
+    width: 70px;
+    height: 70px;
+}
+
+.steps button > div .circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #95AABB;
+}
+
+.steps button > div .circle.completed {
+    background-color:#107DD7;
+}

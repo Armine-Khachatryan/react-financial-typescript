@@ -1,0 +1,85 @@
+footer {
+    padding: 50px 0 55px;
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .left-side {
+    display: flex;
+    gap: 90px;
+}
+
+footer .left-side .column {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+footer .left-side .column li a {
+    color: var(--dark_blue);
+}
+
+footer .right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: auto;
+    max-width: 425px;
+    width: 100%;
+}
+
+footer .right-side .top {
+    display: grid;
+    gap: 6px;
+    text-align: right;
+    color: var(--secondary-grey);
+}
+
+footer .right-side .top .phone {
+    font-family: Jost-Bold;
+    font-size: 20px;
+    line-height: 29px;
+    color: var(--secondary-grey);
+}
+
+footer .right-side .top .consultant {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+footer .right-side .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+}
+
+footer .right-side .bottom .email {
+    border: 2px solid var(--secondary-grey);
+    color: var(--secondary-grey);
+    font-family: Jost-Bold;
+    font-size: 20px;
+    line-height: 29px;
+    width: 185px;
+    height: 41px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 58px;
+}
+
+footer .right-side .bottom .social-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
